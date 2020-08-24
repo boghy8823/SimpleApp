@@ -1,0 +1,64 @@
+body {
+  background: #333;
+  font-family: 'RobotoRegular','Roboto','Droid Sans','Helvetica Neue','Segoe UI','Segoe','Open Sans','Helvetica','Arial',sans serif;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.slide-enter {
+    left: 100%;
+}
+
+.slide-enter-active {
+    left: 0;
+}
+
+.slide-exit {
+    left: 0;
+}
+
+.slide-exit-active {
+    left: -100%;
+}
+
+/* Card */
+.card-container {
+    background-color: #333;
+    position: relative;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    padding: 16px 0;
+    border-radius: 4px;
+}
+
+.basketball {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url('./basketball.png') no-repeat;
+}
+
+.football {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url('./football.png') no-repeat;
+}
+
+.tennis {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url('./tennis.png') no-repeat;
+}
+
+.defaultSportNameIcon {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url('./default.png') no-repeat;
+}
